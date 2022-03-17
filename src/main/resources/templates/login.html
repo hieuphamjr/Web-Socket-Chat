@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+<div id="login-container">
+    <h1 class="title">Enter your username</h1>
+    <form id="loginForm" name="loginForm" method="POST">
+        <input type="text" id="username" name="username" />
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+<script th:src="@{/js/main.js}"></script>
+</html>
